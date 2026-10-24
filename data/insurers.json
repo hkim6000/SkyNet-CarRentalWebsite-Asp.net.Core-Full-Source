@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ins-cascade",
+    "name": "Cascade Mutual Insurance",
+    "contact": "Claims desk",
+    "phone": "(503) 555-0170",
+    "email": "claims@cascademutual.example",
+    "address": "900 Pioneer Square, Portland, OR 97204",
+    "termsDays": 30,
+    "dailyCap": 45,
+    "coverExtras": false,
+    "note": "Replacement cars for policyholders. Always quote the claim number.",
+    "active": true
+  },
+  {
+    "id": "ins-pinecrest",
+    "name": "Pinecrest Auto Insurance",
+    "contact": "Renee Holt",
+    "phone": "(541) 555-0233",
+    "email": "rentals@pinecrestauto.example",
+    "address": "14 Willow Lane, Eugene, OR 97401",
+    "termsDays": 45,
+    "dailyCap": 0,
+    "coverExtras": true,
+    "note": "Pays the full rental and extras for approved claims.",
+    "active": true
+  },
+  {
+    "id": "ins-harbor",
+    "name": "Harborline Insurance Group",
+    "contact": "Fleet claims",
+    "phone": "(206) 555-0145",
+    "email": "fleetclaims@harborline.example",
+    "address": "2200 Harbor Avenue SW, Seattle, WA 98126",
+    "termsDays": 30,
+    "dailyCap": 60,
+    "coverExtras": false,
+    "note": "",
+    "active": true
+  }
+]

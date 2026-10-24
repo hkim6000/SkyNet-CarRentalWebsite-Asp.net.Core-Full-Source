@@ -1,0 +1,24 @@
+<div class="sv-site" data-page="AdminService" id="sv-site-root">
+<header class="sv-top">
+    <button type="button" class="sv-burger" aria-label="Menu" onclick="AdminServiceJs.openMenu()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="sv-logo" href="Admin"><svg viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#13202B"/><path d="M12 30L18 10M28 30L22 10" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/><path d="M20 13v3M20 20v3M20 27v2" fill="none" stroke="#E2622B" stroke-width="2.6" stroke-linecap="round"/></svg><span id="sv-brand">Staff</span><small>Staff</small></a>
+    <div class="sv-who" id="sv-who"></div>
+    <a class="sv-tl sv-tlv" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="sv-tl" onclick="AdminServiceJs.signout()">Sign out</button>
+</header>
+<div class="sv-body">
+    <nav class="sv-rail" id="sv-rail" aria-label="Staff menu">
+        <div class="sv-rail-top"><b>Menu</b><button type="button" class="sv-ibtn" aria-label="Close menu" onclick="AdminServiceJs.closeMenu()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="sv-menu" id="sv-menu"></div>
+    </nav>
+    <div class="sv-scrim" id="sv-scrim" onclick="AdminServiceJs.closeMenu()"></div>
+    <main class="sv-main" id="sv-main"><div class="sv-loading">Loading</div></main>
+</div>
+<div class="sv-modal" id="sv-modal" aria-hidden="true">
+    <div class="sv-mbox sv-wide" role="dialog" aria-modal="true" aria-labelledby="sv-mtitle">
+        <div class="sv-mhead"><h2 id="sv-mtitle"></h2><button type="button" class="sv-ibtn" aria-label="Close" onclick="AdminServiceJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="sv-mbody" id="sv-mbody"></div>
+    </div>
+</div>
+<div class="sv-toast" id="sv-toast" role="status" aria-live="polite"></div>
+</div>

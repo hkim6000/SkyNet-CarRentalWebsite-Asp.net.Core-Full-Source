@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ps-agent",
+    "name": "Rental agent",
+    "note": "Counter staff: hand over and take back cars, take bookings, answer messages.",
+    "perms": {
+      "desk": "VE",
+      "bookings": "VAE",
+      "calendar": "V",
+      "fleet": "V",
+      "incidents": "VA",
+      "transfers": "V",
+      "payments": "VA",
+      "messages": "VE"
+    }
+  },
+  {
+    "id": "ps-lead",
+    "name": "Branch lead",
+    "note": "Runs a branch: everything an agent does, plus fleet changes and transfers.",
+    "perms": {
+      "desk": "VE",
+      "bookings": "VAED",
+      "calendar": "V",
+      "fleet": "VAE",
+      "service": "V",
+      "repairs": "VAE",
+      "incidents": "VAE",
+      "transfers": "VAE",
+      "extras": "VE",
+      "payments": "VA",
+      "insurers": "V",
+      "reports": "V",
+      "messages": "VED"
+    }
+  },
+  {
+    "id": "ps-tech",
+    "name": "Fleet technician",
+    "note": "Keeps the cars ready: fleet records, maintenance, repairs, incidents, transfers and extras stock.",
+    "perms": {
+      "desk": "V",
+      "calendar": "V",
+      "fleet": "VAE",
+      "service": "VAED",
+      "repairs": "VAE",
+      "incidents": "VAE",
+      "transfers": "VAE",
+      "extras": "VE"
+    }
+  },
+  {
+    "id": "ps-accounts",
+    "name": "Accountant",
+    "note": "Payments, insurers and reports. Reads bookings, the fleet and the activity log.",
+    "perms": {
+      "bookings": "V",
+      "calendar": "V",
+      "fleet": "V",
+      "service": "V",
+      "repairs": "V",
+      "incidents": "V",
+      "sales": "V",
+      "classes": "V",
+      "extras": "V",
+      "payments": "VAED",
+      "insurers": "VAE",
+      "reports": "V",
+      "activity": "V"
+    }
+  },
+  {
+    "id": "ps-web",
+    "name": "Website editor",
+    "note": "Edits the website pages and the media library, and answers messages.",
+    "perms": {
+      "pages": "VE",
+      "media": "VAED",
+      "messages": "VE"
+    }
+  }
+]

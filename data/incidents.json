@@ -1,0 +1,55 @@
+[
+  {
+    "id": "n-hcrsyn6b",
+    "carId": "c-qesh7ax4",
+    "bookingId": "",
+    "kind": "Stolen",
+    "when": "2026-10-20T23:40:00",
+    "place": "Level P1, downtown parking garage",
+    "description": "Car missing from its bay at opening time. Garage camera shows it leaving at 11:40 pm with the barrier forced.",
+    "policeReport": "HFPD-26-04417",
+    "policeAgency": "Harlow Falls Police Department",
+    "status": "Open",
+    "recoveredAt": null,
+    "photos": [],
+    "notes": "Insurer told by phone, claim to follow.",
+    "closedAt": null,
+    "by": "u-downtown"
+  },
+  {
+    "id": "n-6hb9hesm",
+    "carId": "c-pftr2365",
+    "bookingId": "b-d8a257f6mq",
+    "kind": "Accident",
+    "when": "2026-09-23T15:00:00",
+    "place": "Highway 58 near exit 12",
+    "description": "Customer reports a low-speed rear-end bump in traffic. No injuries. Other driver insured.",
+    "policeReport": "OSP-26-118302",
+    "policeAgency": "Oregon State Police",
+    "status": "Closed",
+    "recoveredAt": null,
+    "photos": [
+      "images/checks/rear-right.webp"
+    ],
+    "notes": "Other driver's insurer paid the repair.",
+    "closedAt": "2026-10-02T09:00:00",
+    "by": "u-airport"
+  },
+  {
+    "id": "n-bxj98cce",
+    "carId": "c-ik84xuvs",
+    "bookingId": "b-aapeusgjqm",
+    "kind": "Traffic ticket",
+    "when": "2026-10-20T12:00:00",
+    "place": "Main Street and 5th Avenue",
+    "description": "Red light camera notice received by mail for this plate.",
+    "policeReport": "",
+    "policeAgency": "City of Harlow Falls",
+    "status": "Open",
+    "recoveredAt": null,
+    "photos": [],
+    "notes": "Forward the notice to the renter.",
+    "closedAt": null,
+    "by": "u-airport"
+  }
+]

@@ -1,0 +1,22 @@
+<div class="lg-site" data-page="AdminLogin" id="lg-site-root">
+<main class="lg-wrap">
+    <section class="lg-card" aria-labelledby="lg-title">
+        <a class="lg-brand" href="Home"><svg viewBox="0 0 40 40" width="38" height="38" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#13202B"/><path d="M12 30L18 10M28 30L22 10" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/><path d="M20 13v3M20 20v3M20 27v2" fill="none" stroke="#E2622B" stroke-width="2.6" stroke-linecap="round"/></svg><span>{plhd_brand}</span></a>
+        <h1 id="lg-title">Staff sign in</h1>
+        {plhd_first}
+        <form class="lg-form" id="lg-form" onsubmit="return AdminLoginJs.submit()" novalidate>
+            <label class="lg-field" for="lg-user"><span>User name</span><input type="text" id="lg-user" autocomplete="username" maxlength="60" value="{plhd_user}" autocapitalize="none" spellcheck="false"></label>
+            <label class="lg-field" for="lg-pass"><span id="lg-passlabel">Password</span><input type="password" id="lg-pass" autocomplete="current-password" maxlength="100" value="{plhd_pass}"></label>
+            <div class="lg-change" id="lg-change" hidden>
+                <p class="lg-note">Choose your own password to continue. Use at least 8 characters.</p>
+                <label class="lg-field" for="lg-new"><span>New password</span><input type="password" id="lg-new" autocomplete="new-password" maxlength="100"></label>
+                <label class="lg-field" for="lg-again"><span>New password again</span><input type="password" id="lg-again" autocomplete="new-password" maxlength="100"></label>
+            </div>
+            <em class="lg-err" id="lg-e" role="alert"></em>
+            <button type="submit" class="lg-btn" id="lg-btn">Sign in</button>
+        </form>
+        {plhd_demo}
+        <a class="lg-back" href="Home">Back to the website</a>
+    </section>
+</main>
+</div>

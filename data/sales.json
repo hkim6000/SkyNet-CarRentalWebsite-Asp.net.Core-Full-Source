@@ -1,0 +1,15 @@
+[
+  {
+    "id": "v-zxpvicpk",
+    "carId": "c-abn8r6g5",
+    "date": "2026-10-12T00:00:00",
+    "buyer": "Harlow Falls Auto Exchange",
+    "contact": "(541) 555-0660",
+    "price": 17662,
+    "mileage": 30754,
+    "notes": "Sold at fleet renewal.",
+    "prevStatus": "Available",
+    "created": "2026-10-12T11:00:00",
+    "by": "u-owner"
+  }
+]

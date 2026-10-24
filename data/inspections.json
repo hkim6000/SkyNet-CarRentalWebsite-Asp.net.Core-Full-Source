@@ -1,0 +1,923 @@
+[
+  {
+    "id": "i-ckzay6eh",
+    "bookingId": "b-d8a257f6mq",
+    "carId": "c-pftr2365",
+    "kind": "out",
+    "when": "2026-09-22T09:16:00",
+    "by": "u-airport",
+    "mileage": 29029,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Small scratch on the rear bumper, shown to the customer.",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-w2dug96b",
+    "bookingId": "b-d8a257f6mq",
+    "carId": "c-pftr2365",
+    "kind": "in",
+    "when": "2026-09-26T09:10:00",
+    "by": "u-airport",
+    "mileage": 29704,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/wheel.webp",
+      "images/checks/dashboard.webp"
+    ]
+  },
+  {
+    "id": "i-ibrfqmkg",
+    "bookingId": "b-dt5supfaks",
+    "carId": "c-g39kqk53",
+    "kind": "out",
+    "when": "2026-09-25T14:13:00",
+    "by": "u-downtown",
+    "mileage": 27714,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-bbgnsb7r",
+    "bookingId": "b-dt5supfaks",
+    "carId": "c-g39kqk53",
+    "kind": "in",
+    "when": "2026-09-28T14:10:00",
+    "by": "u-downtown",
+    "mileage": 28564,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-gygmcth7",
+    "bookingId": "b-288ab5qvp3",
+    "carId": "c-wtvaebqg",
+    "kind": "out",
+    "when": "2026-09-27T08:24:00",
+    "by": "u-airport",
+    "mileage": 33240,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-thhh3iqq",
+    "bookingId": "b-288ab5qvp3",
+    "carId": "c-wtvaebqg",
+    "kind": "in",
+    "when": "2026-10-04T08:30:00",
+    "by": "u-airport",
+    "mileage": 33994,
+    "fuel": 5,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/wheel.webp",
+      "images/checks/dashboard.webp"
+    ]
+  },
+  {
+    "id": "i-73kb24c3",
+    "bookingId": "b-yjbbcicece",
+    "carId": "c-nrafsfj3",
+    "kind": "out",
+    "when": "2026-09-30T09:49:00",
+    "by": "u-airport",
+    "mileage": 6017,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Small scratch on the rear bumper, shown to the customer.",
+    "photos": []
+  },
+  {
+    "id": "i-x3rx5w3d",
+    "bookingId": "b-yjbbcicece",
+    "carId": "c-nrafsfj3",
+    "kind": "in",
+    "when": "2026-10-02T09:20:00",
+    "by": "u-airport",
+    "mileage": 6903,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-jyr5azgm",
+    "bookingId": "b-hccfu8gigp",
+    "carId": "c-pc3k2yhj",
+    "kind": "out",
+    "when": "2026-10-02T16:00:00",
+    "by": "u-downtown",
+    "mileage": 16883,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-5nbqi437",
+    "bookingId": "b-hccfu8gigp",
+    "carId": "c-pc3k2yhj",
+    "kind": "in",
+    "when": "2026-10-07T15:20:00",
+    "by": "u-downtown",
+    "mileage": 17712,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/wheel.webp",
+      "images/checks/dashboard.webp"
+    ]
+  },
+  {
+    "id": "i-ccttcgsh",
+    "bookingId": "b-udzw8ub4b5",
+    "carId": "c-a97r67m8",
+    "kind": "out",
+    "when": "2026-10-04T11:20:00",
+    "by": "u-airport",
+    "mileage": 35830,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-5rcuhvyk",
+    "bookingId": "b-udzw8ub4b5",
+    "carId": "c-a97r67m8",
+    "kind": "in",
+    "when": "2026-10-07T12:35:00",
+    "by": "u-airport",
+    "mileage": 36177,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-tf7j6hiu",
+    "bookingId": "b-k5anuday9g",
+    "carId": "c-q4vipz8k",
+    "kind": "out",
+    "when": "2026-10-07T08:47:00",
+    "by": "u-airport",
+    "mileage": 33159,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Small scratch on the rear bumper, shown to the customer.",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-utrfu7q2",
+    "bookingId": "b-k5anuday9g",
+    "carId": "c-q4vipz8k",
+    "kind": "in",
+    "when": "2026-10-11T09:30:00",
+    "by": "u-airport",
+    "mileage": 33520,
+    "fuel": 5,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/wheel.webp",
+      "images/checks/dashboard.webp"
+    ]
+  },
+  {
+    "id": "i-z7v88vbr",
+    "bookingId": "b-q9khf9gwyg",
+    "carId": "c-jb6majmj",
+    "kind": "out",
+    "when": "2026-10-09T12:52:00",
+    "by": "u-airport",
+    "mileage": 22562,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-n23aykrw",
+    "bookingId": "b-q9khf9gwyg",
+    "carId": "c-jb6majmj",
+    "kind": "in",
+    "when": "2026-10-11T13:10:00",
+    "by": "u-airport",
+    "mileage": 23423,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-9tupudbk",
+    "bookingId": "b-s5k2q7icyw",
+    "carId": "c-7fcaiqcv",
+    "kind": "out",
+    "when": "2026-10-11T10:15:00",
+    "by": "u-downtown",
+    "mileage": 30353,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-y6d26ygq",
+    "bookingId": "b-s5k2q7icyw",
+    "carId": "c-7fcaiqcv",
+    "kind": "in",
+    "when": "2026-10-17T11:35:00",
+    "by": "u-downtown",
+    "mileage": 30986,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/wheel.webp",
+      "images/checks/dashboard.webp"
+    ]
+  },
+  {
+    "id": "i-4xyintg8",
+    "bookingId": "b-qix7rntvjj",
+    "carId": "c-ka963vj4",
+    "kind": "out",
+    "when": "2026-10-13T15:23:00",
+    "by": "u-downtown",
+    "mileage": 31392,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Small scratch on the rear bumper, shown to the customer.",
+    "photos": []
+  },
+  {
+    "id": "i-4ga4h93j",
+    "bookingId": "b-qix7rntvjj",
+    "carId": "c-ka963vj4",
+    "kind": "in",
+    "when": "2026-10-16T15:10:00",
+    "by": "u-downtown",
+    "mileage": 31850,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-h267uyuy",
+    "bookingId": "b-gkgn2jjvv5",
+    "carId": "c-huuttzss",
+    "kind": "out",
+    "when": "2026-10-15T09:06:00",
+    "by": "u-downtown",
+    "mileage": 15854,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-2wa926vm",
+    "bookingId": "b-gkgn2jjvv5",
+    "carId": "c-huuttzss",
+    "kind": "in",
+    "when": "2026-10-19T09:30:00",
+    "by": "u-downtown",
+    "mileage": 16440,
+    "fuel": 5,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "Dent",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Dent on the left rear door, photographed.",
+    "photos": [
+      "images/checks/door-scratch.webp",
+      "images/checks/dashboard.webp"
+    ]
+  },
+  {
+    "id": "i-j52qfxwr",
+    "bookingId": "b-ca35qu7bjs",
+    "carId": "c-pftr2365",
+    "kind": "out",
+    "when": "2026-10-16T12:14:00",
+    "by": "u-airport",
+    "mileage": 29093,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-5abds9vv",
+    "bookingId": "b-ca35qu7bjs",
+    "carId": "c-pftr2365",
+    "kind": "in",
+    "when": "2026-10-18T12:10:00",
+    "by": "u-airport",
+    "mileage": 29704,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-527ycy6a",
+    "bookingId": "b-mh75wsg4r3",
+    "carId": "c-nrafsfj3",
+    "kind": "out",
+    "when": "2026-10-18T10:14:00",
+    "by": "u-airport",
+    "mileage": 6156,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Small scratch on the rear bumper, shown to the customer.",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-qg4z3jn4",
+    "bookingId": "b-mh75wsg4r3",
+    "carId": "c-nrafsfj3",
+    "kind": "in",
+    "when": "2026-10-21T09:20:00",
+    "by": "u-airport",
+    "mileage": 6903,
+    "fuel": 5,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/wheel.webp",
+      "images/checks/dashboard.webp"
+    ]
+  },
+  {
+    "id": "i-6xfkzwze",
+    "bookingId": "b-mwa29gcspk",
+    "carId": "c-g39kqk53",
+    "kind": "out",
+    "when": "2026-10-19T08:11:00",
+    "by": "u-downtown",
+    "mileage": 27853,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-mhux4kup",
+    "bookingId": "b-mwa29gcspk",
+    "carId": "c-g39kqk53",
+    "kind": "in",
+    "when": "2026-10-21T08:10:00",
+    "by": "u-downtown",
+    "mileage": 28564,
+    "fuel": 5,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-4mdgyc4a",
+    "bookingId": "b-zx47pm3hyd",
+    "carId": "c-pftr2365",
+    "kind": "out",
+    "when": "2026-10-20T09:12:00",
+    "by": "u-airport",
+    "mileage": 29212,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-av3gabnm",
+    "bookingId": "b-zx47pm3hyd",
+    "carId": "c-pftr2365",
+    "kind": "in",
+    "when": "2026-10-21T08:20:00",
+    "by": "u-airport",
+    "mileage": 29704,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/wheel.webp",
+      "images/checks/dashboard.webp"
+    ]
+  },
+  {
+    "id": "i-tjn4hjkg",
+    "bookingId": "b-aapeusgjqm",
+    "carId": "c-ik84xuvs",
+    "kind": "out",
+    "when": "2026-10-19T10:11:00",
+    "by": "u-airport",
+    "mileage": 39706,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Small scratch on the rear bumper, shown to the customer.",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-gek975da",
+    "bookingId": "b-vn9pf6hhs4",
+    "carId": "c-wtvaebqg",
+    "kind": "out",
+    "when": "2026-10-20T08:41:00",
+    "by": "u-airport",
+    "mileage": 33994,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-wjrytkct",
+    "bookingId": "b-9r9kakw79u",
+    "carId": "c-dvy44bzn",
+    "kind": "out",
+    "when": "2026-10-18T13:23:00",
+    "by": "u-airport",
+    "mileage": 34765,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-geyn62bd",
+    "bookingId": "b-bbcxg89jcp",
+    "carId": "c-ka963vj4",
+    "kind": "out",
+    "when": "2026-10-21T11:20:00",
+    "by": "u-downtown",
+    "mileage": 31850,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Small scratch on the rear bumper, shown to the customer.",
+    "photos": []
+  },
+  {
+    "id": "i-3c6drrqc",
+    "bookingId": "b-pu5x5sduuy",
+    "carId": "c-qgfstcmt",
+    "kind": "out",
+    "when": "2026-10-20T14:54:00",
+    "by": "u-downtown",
+    "mileage": 36020,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-mwa7v4s9",
+    "bookingId": "b-hxnwvifc33",
+    "carId": "c-bqfbcizg",
+    "kind": "out",
+    "when": "2026-10-19T08:50:00",
+    "by": "u-airport",
+    "mileage": 21480,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-rfmky2ma",
+    "bookingId": "b-d2jfpc7mgm",
+    "carId": "c-q4vipz8k",
+    "kind": "out",
+    "when": "2026-10-17T09:41:00",
+    "by": "u-airport",
+    "mileage": 33520,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "Scratch",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "Small scratch on the rear bumper, shown to the customer.",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  },
+  {
+    "id": "i-3zhx2x3e",
+    "bookingId": "b-svm4cwb5d9",
+    "carId": "c-a97r67m8",
+    "kind": "out",
+    "when": "2026-10-20T07:58:00",
+    "by": "u-airport",
+    "mileage": 36177,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": []
+  },
+  {
+    "id": "i-5yr2n7uy",
+    "bookingId": "b-j84gf8pja5",
+    "carId": "c-n3kr4ec8",
+    "kind": "out",
+    "when": "2026-10-16T11:47:00",
+    "by": "u-downtown",
+    "mileage": 37116,
+    "fuel": 8,
+    "panels": {
+      "Front": "OK",
+      "Rear": "OK",
+      "Left side": "OK",
+      "Right side": "OK",
+      "Roof": "OK",
+      "Windscreen": "OK",
+      "Wheels": "OK",
+      "Interior": "OK"
+    },
+    "notes": "",
+    "photos": [
+      "images/checks/front-left.webp",
+      "images/checks/rear-right.webp"
+    ]
+  }
+]

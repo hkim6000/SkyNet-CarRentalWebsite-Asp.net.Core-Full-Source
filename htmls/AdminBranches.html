@@ -1,0 +1,34 @@
+<div class="bn-site" data-page="AdminBranches" id="bn-site-root">
+<header class="bn-top">
+    <button type="button" class="bn-burger" aria-label="Menu" onclick="AdminBranchesJs.openMenu()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="bn-logo" href="Admin"><svg viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#13202B"/><path d="M12 30L18 10M28 30L22 10" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/><path d="M20 13v3M20 20v3M20 27v2" fill="none" stroke="#E2622B" stroke-width="2.6" stroke-linecap="round"/></svg><span id="bn-brand">Staff</span><small>Staff</small></a>
+    <div class="bn-who" id="bn-who"></div>
+    <a class="bn-tl bn-tlv" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="bn-tl" onclick="AdminBranchesJs.signout()">Sign out</button>
+</header>
+<div class="bn-body">
+    <nav class="bn-rail" id="bn-rail" aria-label="Staff menu">
+        <div class="bn-rail-top"><b>Menu</b><button type="button" class="bn-ibtn" aria-label="Close menu" onclick="AdminBranchesJs.closeMenu()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="bn-menu" id="bn-menu"></div>
+    </nav>
+    <div class="bn-scrim" id="bn-scrim" onclick="AdminBranchesJs.closeMenu()"></div>
+    <main class="bn-main" id="bn-main"><div class="bn-loading">Loading</div></main>
+</div>
+<div class="bn-modal" id="bn-modal" aria-hidden="true">
+    <div class="bn-mbox" role="dialog" aria-modal="true" aria-labelledby="bn-mtitle">
+        <div class="bn-mhead"><h2 id="bn-mtitle"></h2><button type="button" class="bn-ibtn" aria-label="Close" onclick="AdminBranchesJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="bn-mbody" id="bn-mbody"></div>
+    </div>
+</div>
+<div class="bn-pk" id="bn-pk" aria-hidden="true">
+    <div class="bn-mbox bn-pkbox" role="dialog" aria-modal="true" aria-labelledby="bn-pkt">
+        <div class="bn-mhead"><h2 id="bn-pkt">Choose from the media library</h2><button type="button" class="bn-ibtn" aria-label="Close" onclick="AdminBranchesJs.pkClose()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="bn-mbody">
+            <div class="bn-pkbar"><input type="search" id="bn-pkq" placeholder="Search by name or description" maxlength="40" oninput="AdminBranchesJs.pkSearch()" aria-label="Search media"><label class="bn-btn bn-btn-ghost bn-btn-sm bn-upbtn"><input type="file" id="bn-pkfile" accept="image/jpeg,image/png,image/webp,image/gif" onchange="AdminBranchesJs.pkUpload()">Upload new</label></div>
+            <p class="bn-upmsg" id="bn-pkmsg" role="status"></p>
+            <div class="bn-pkgrid" id="bn-pkgrid"></div>
+        </div>
+    </div>
+</div>
+<div class="bn-toast" id="bn-toast" role="status" aria-live="polite"></div>
+</div>

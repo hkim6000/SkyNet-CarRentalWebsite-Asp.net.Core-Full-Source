@@ -1,0 +1,71 @@
+[
+  {
+    "id": "ex-child-seat",
+    "name": "Child seat",
+    "note": "For children from 5 to 40 lb, rear or forward facing.",
+    "kind": "item",
+    "perDay": 12,
+    "maxQty": 2,
+    "show": true,
+    "stock": {
+      "br-airport": 6,
+      "br-downtown": 3
+    }
+  },
+  {
+    "id": "ex-booster",
+    "name": "Booster seat",
+    "note": "For children from 40 to 100 lb.",
+    "kind": "item",
+    "perDay": 9,
+    "maxQty": 2,
+    "show": true,
+    "stock": {
+      "br-airport": 6,
+      "br-downtown": 3
+    }
+  },
+  {
+    "id": "ex-gps",
+    "name": "GPS unit",
+    "note": "Offline maps of the whole country, mounted for you.",
+    "kind": "item",
+    "perDay": 10,
+    "maxQty": 1,
+    "show": true,
+    "stock": {
+      "br-airport": 6,
+      "br-downtown": 2
+    }
+  },
+  {
+    "id": "ex-driver",
+    "name": "Additional driver",
+    "note": "Each extra driver shows their licence at pick-up.",
+    "kind": "service",
+    "perDay": 13,
+    "maxQty": 2,
+    "show": true,
+    "stock": {}
+  },
+  {
+    "id": "ex-roadside",
+    "name": "Roadside plus",
+    "note": "Lockouts, flat tires, fuel delivery and towing, day and night.",
+    "kind": "service",
+    "perDay": 7,
+    "maxQty": 1,
+    "show": true,
+    "stock": {}
+  },
+  {
+    "id": "ex-full",
+    "name": "Full coverage",
+    "note": "Damage to the car is covered with no excess, tires and windscreen included.",
+    "kind": "cover",
+    "perDay": 24,
+    "maxQty": 1,
+    "show": true,
+    "stock": {}
+  }
+]

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
+
+.py-site {
+    --py-ink: #13202B;
+    --py-ink2: #5B6479;
+    --py-line: #DDE3E9;
+    --py-bg: #EEF2F5;
+    --py-paper: #FFFFFF;
+    --py-soft: #E7ECF0;
+    --py-accent: #13202B;
+    --py-accent-d: #0A141D;
+    --py-green: #3F6B3B;
+    --py-amber: #8A5A00;
+    --py-red: #B3261E;
+    --py-head: 'Archivo', 'Inter', 'Segoe UI', system-ui, sans-serif;
+    --py-text: 'Inter', 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-family: var(--py-text);
+    color: var(--py-ink);
+    background: var(--py-bg);
+    font-size: 15px;
+    line-height: 1.55;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.py-site *, .py-site *::before, .py-site *::after { box-sizing: border-box; }
+.py-site [hidden] { display: none !important; }
+.py-site a { color: inherit; text-decoration: none; }
+:where(.py-site) :where(button, input, select, textarea) { font: inherit; color: inherit; }
+.py-site h1, .py-site h2, .py-site h3 { font-family: var(--py-head); font-weight: 600; line-height: 1.2; margin: 0; }
+.py-site h1 { font-size: 30px; }
+.py-site h2 { font-size: 21px; }
+.py-site h3 { font-size: 17px; }
+.py-site p { margin: 0; }
+body { margin: 0; }
+
+.py-top { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; gap: 14px; min-height: 60px; padding: 0 22px; background: var(--py-paper); border-bottom: 1px solid var(--py-line); }
+.py-burger { display: none; width: 42px; height: 42px; border: 0; background: none; cursor: pointer; border-radius: 8px; }
+.py-logo { display: inline-flex; align-items: center; gap: 10px; font-family: var(--py-head); font-weight: 700; font-size: 20px; min-width: 0; }
+.py-logo small { font-family: var(--py-text); font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: #fff; background: var(--py-ink); padding: 2px 8px; border-radius: 999px; }
+.py-who { margin-left: auto; display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2; min-width: 0; }
+.py-who small { color: var(--py-ink2); font-size: 12px; }
+.py-tl { border: 1px solid var(--py-line); background: var(--py-paper); border-radius: 8px; min-height: 38px; padding: 0 14px; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; }
+.py-tl:hover { border-color: var(--py-ink); }
+.py-body { flex: 1; display: grid; grid-template-columns: 224px minmax(0, 1fr); align-items: start; }
+.py-rail { position: sticky; top: 60px; height: calc(100vh - 60px); overflow-y: auto; padding: 18px 12px; background: var(--py-paper); border-right: 1px solid var(--py-line); }
+.py-rail-top { display: none; }
+.py-menu { display: grid; gap: 2px; }
+.py-mi { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 12px; border-radius: 8px; font-weight: 600; color: var(--py-ink2); }
+.py-mi:hover { background: var(--py-soft); color: var(--py-ink); }
+.py-mi.py-on { background: var(--py-ink); color: #fff; }
+.py-badge { font-style: normal; min-width: 22px; padding: 0 7px; height: 22px; border-radius: 999px; background: var(--py-accent); color: #fff; font-size: 12px; font-weight: 800; line-height: 22px; text-align: center; }
+.py-main { padding: 28px 30px 56px; min-width: 0; }
+.py-loading { color: var(--py-ink2); }
+.py-ph { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 22px; }
+.py-ph p { color: var(--py-ink2); margin-top: 4px; }
+.py-scrim { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.45); opacity: 0; pointer-events: none; transition: opacity 0.2s; z-index: 80; }
+.py-scrim.py-open { opacity: 1; pointer-events: auto; }
+
+.py-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 42px; padding: 0 18px; border: 1px solid var(--py-accent); border-radius: 8px; background: var(--py-accent); color: #fff !important; font-weight: 700; cursor: pointer; }
+.py-btn:hover { background: var(--py-accent-d); border-color: var(--py-accent-d); }
+.py-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+.py-btn-ghost { background: var(--py-paper); color: var(--py-ink) !important; border-color: #C9D0D8; }
+.py-btn-ghost:hover { background: var(--py-soft); border-color: var(--py-ink); }
+.py-btn-sm { min-height: 34px; padding: 0 12px; font-size: 14px; }
+.py-btn-danger { background: #fff; color: var(--py-red) !important; border-color: #E0B3AF; }
+.py-btn-danger:hover { background: #FBE9E7; border-color: var(--py-red); }
+.py-ibtn { width: 40px; height: 40px; border: 0; border-radius: 8px; background: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+.py-ibtn:hover { background: var(--py-soft); }
+
+.py-panel { background: var(--py-paper); border: 1px solid var(--py-line); border-radius: 14px; padding: 20px; }
+.py-panel + .py-panel { margin-top: 18px; }
+.py-tools { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+.py-tools input[type="search"], .py-tools input[type="text"], .py-tools input[type="date"], .py-tools select { height: 42px; border: 1px solid #C9D0D8; border-radius: 8px; padding: 0 12px; background: #fff; outline: none; min-width: 0; }
+.py-tools input[type="search"] { flex: 1; min-width: 180px; max-width: 360px; }
+.py-tools input:focus, .py-tools select:focus { border-color: var(--py-ink); }
+.py-wrapt { overflow-x: auto; border: 1px solid var(--py-line); border-radius: 12px; background: var(--py-paper); }
+.py-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.py-table th { text-align: left; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--py-ink2); padding: 12px 14px; background: var(--py-soft); white-space: nowrap; }
+.py-table td { padding: 12px 14px; border-top: 1px solid var(--py-line); vertical-align: middle; }
+.py-table tbody tr:hover { background: #F8FAFB; }
+.py-row { cursor: pointer; }
+.py-table small { display: block; color: var(--py-ink2); }
+.py-num { text-align: right; white-space: nowrap; }
+.py-table th.py-num { text-align: right; }
+.py-pager { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 14px; color: var(--py-ink2); }
+.py-pager div { display: flex; gap: 8px; }
+.py-empty { padding: 36px 16px; text-align: center; color: var(--py-ink2); }
+.py-pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12.5px; font-weight: 700; white-space: nowrap; background: var(--py-soft); color: var(--py-ink); }
+.py-pill-new { background: #FCE3D5; color: #8A3A14; }
+.py-pill-go { background: #E3EEDD; color: #2E5A2A; }
+.py-pill-wait { background: #FDEADF; color: #7A5200; }
+.py-pill-bad { background: #F2DAD7; color: #8A2A22; }
+.py-pill-off { background: #E8E4DF; color: #5B514C; }
+
+.py-field { display: flex; flex-direction: column; gap: 6px; }
+.py-field > span { font-size: 13px; font-weight: 700; color: var(--py-ink2); }
+.py-field input[type="text"], .py-field input[type="number"], .py-field input[type="password"], .py-field input[type="email"], .py-field input[type="date"], .py-field select, .py-field textarea { width: 100%; min-height: 42px; border: 1px solid #C9D0D8; border-radius: 8px; padding: 9px 12px; background: #fff; outline: none; }
+.py-field input:focus, .py-field select:focus, .py-field textarea:focus { border-color: var(--py-ink); }
+.py-field small { color: var(--py-ink2); font-size: 13px; }
+.py-err { display: block; font-style: normal; font-size: 13px; color: var(--py-red); font-weight: 600; }
+.py-err:empty { display: none; }
+.py-grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.py-grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.py-stack { display: grid; gap: 14px; }
+.py-check { display: flex; align-items: center; gap: 10px; font-weight: 600; cursor: pointer; }
+.py-check input { width: 18px; height: 18px; accent-color: var(--py-accent); }
+.py-acts { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+.py-hint { color: var(--py-ink2); font-size: 14px; }
+.py-kv { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 6px 14px; }
+.py-kv dt { color: var(--py-ink2); font-weight: 600; }
+.py-kv dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+
+.py-modal { position: fixed; inset: 0; z-index: 150; background: rgba(20, 20, 22, 0.55); display: none; align-items: flex-start; justify-content: center; padding: 28px 16px; overflow-y: auto; }
+.py-modal.py-open { display: flex; }
+.py-mbox { background: var(--py-paper); border-radius: 16px; width: min(760px, 100%); box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3); }
+.py-mhead { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 18px 22px; border-bottom: 1px solid var(--py-line); }
+.py-mbody { padding: 22px; }
+.py-ask { position: fixed; inset: 0; z-index: 200; background: rgba(20, 20, 22, 0.55); display: none; align-items: center; justify-content: center; padding: 20px; }
+.py-ask.py-open { display: flex; }
+.py-askbox { background: var(--py-paper); border-radius: 12px; width: min(440px, 100%); padding: 22px 22px 18px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25); }
+.py-site .py-askbox h2 { font-size: 20px; margin: 0 0 6px; }
+.py-site .py-askbox p { margin: 0; overflow-wrap: anywhere; }
+.py-site .py-askbox p:empty { display: none; }
+.py-askbox input { display: none; width: 100%; min-height: 44px; margin-top: 14px; border: 1px solid #C9D0D8; border-radius: 8px; padding: 0 12px; }
+.py-askbox.py-askin input { display: block; }
+.py-askacts { display: flex; justify-content: flex-end; gap: 10px; margin-top: 18px; }
+.py-askdel { background: #B23A30; border-color: #B23A30; }
+.py-toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 30px); background: var(--py-ink); color: #fff; padding: 12px 20px; border-radius: 999px; font-weight: 600; opacity: 0; pointer-events: none; transition: opacity 0.25s, transform 0.25s; z-index: 300; max-width: calc(100vw - 32px); }
+.py-toast.py-open { opacity: 1; transform: translate(-50%, 0); }
+
+.py-push { margin-left: auto; }
+
+@media (max-width: 980px) {
+    .py-burger { display: inline-flex; align-items: center; justify-content: center; }
+    .py-body { grid-template-columns: minmax(0, 1fr); }
+    .py-rail { position: fixed; top: 0; left: 0; bottom: 0; height: auto; width: min(290px, 86vw); z-index: 90; transform: translateX(-100%); transition: transform 0.25s; }
+    .py-rail.py-open { transform: none; }
+    .py-rail-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .py-main { padding: 22px 18px 48px; }
+    .py-grid3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 680px) {
+    .py-top { padding: 0 12px; gap: 8px; }
+    .py-logo small, .py-tlv { display: none; }
+    .py-logo { font-size: 18px; flex-shrink: 0; }
+    .py-who { display: none; }
+    .py-logo { margin-right: auto; }
+    .py-who b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+    .py-tl { white-space: nowrap; padding: 0 10px; }
+    .py-who small { display: none; }
+    .py-main { padding: 18px 12px 40px; }
+    .py-site h1 { font-size: 25px; }
+    .py-grid2, .py-grid3 { grid-template-columns: minmax(0, 1fr); }
+    .py-kv { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .py-kv dd { margin-bottom: 8px; }
+    .py-panel { padding: 14px; }
+    .py-mbody { padding: 16px; }
+    .py-modal { padding: 12px 8px; }
+}
+
+
+
+
+.py-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.py-chip { min-height: 38px; padding: 0 14px; border: 1px solid var(--py-line); border-radius: 999px; background: var(--py-paper); font-weight: 600; cursor: pointer; }
+.py-chip:hover { border-color: var(--py-ink); }
+.py-chip.py-act { background: var(--py-ink); border-color: var(--py-ink); color: #fff; }
+.py-chip small { margin-left: 4px; opacity: 0.75; font-weight: 700; }
+.py-lead { color: var(--py-ink2); }
+.py-thumb { width: 54px; height: 54px; border-radius: 8px; object-fit: cover; background: var(--py-soft); display: block; }
+.py-thumb-round { border-radius: 999px; }
+.py-cell-main { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.py-cell-main b { display: block; }
+.py-ctl { display: inline-flex; gap: 4px; }
+.py-ctl button { width: 32px; height: 32px; border: 1px solid var(--py-line); background: var(--py-paper); border-radius: 6px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+.py-ctl button:hover:not(:disabled) { border-color: var(--py-ink); }
+.py-ctl button:disabled { opacity: 0.35; cursor: default; }
+.py-field textarea { resize: vertical; line-height: 1.5; }
+.py-checks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; padding: 12px; border: 1px solid var(--py-line); border-radius: 8px; background: var(--py-bg); }
+.py-checks .py-check { font-weight: 500; }
+.py-pic { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.py-picb { position: relative; width: 168px; height: 112px; padding: 0; border: 1px dashed #A99F86; border-radius: 10px; background: var(--py-bg); cursor: pointer; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; color: var(--py-ink2); font-weight: 600; font-size: 13.5px; text-align: center; }
+.py-picb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.py-picb:hover { border-color: var(--py-ink); }
+.py-picx { min-height: 34px; padding: 0 12px; border: 1px solid var(--py-line); border-radius: 8px; background: var(--py-paper); cursor: pointer; font-weight: 600; }
+.py-pic-round .py-picb { width: 112px; border-radius: 999px; }
+.py-pk { position: fixed; inset: 0; z-index: 175; background: rgba(20, 20, 22, 0.6); display: none; align-items: flex-start; justify-content: center; padding: 28px 16px; overflow-y: auto; }
+.py-pk.py-open { display: flex; }
+.py-pkbox { width: min(920px, 100%); }
+.py-pkbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+.py-pkbar input[type="search"], .py-pkbar select { min-height: 40px; border: 1px solid #C9D0D8; border-radius: 8px; padding: 0 10px; background: #fff; outline: none; }
+.py-pkbar input[type="search"] { flex: 1 1 200px; min-width: 0; }
+.py-pkbar input:focus, .py-pkbar select:focus { border-color: var(--py-ink); }
+.py-pkgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-top: 8px; max-height: 56vh; overflow-y: auto; padding: 2px; }
+.py-pki { position: relative; display: flex; flex-direction: column; gap: 4px; padding: 6px; border: 2px solid var(--py-line); border-radius: 10px; background: var(--py-paper); cursor: pointer; text-align: left; min-width: 0; }
+.py-pki:hover { border-color: var(--py-ink); }
+.py-pki img, .py-pki video { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 6px; display: block; background: var(--py-soft); }
+.py-pki span { font-size: 12px; color: var(--py-ink2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.py-none { color: var(--py-ink2); padding: 20px 0; grid-column: 1 / -1; }
+.py-upbtn { position: relative; overflow: hidden; }
+.py-upbtn input { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
+.py-upbtn:focus-within { outline: 2px solid var(--py-ink); outline-offset: 2px; }
+.py-upmsg { font-weight: 600; font-size: 14px; color: var(--py-ink); overflow-wrap: anywhere; margin: 0 0 8px; }
+.py-upmsg:empty { display: none; }
+.py-sec { margin: 4px 0 0; padding-top: 14px; border-top: 1px solid var(--py-line); font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--py-ink2); }
+@media (max-width: 680px) {
+    .py-checks { grid-template-columns: minmax(0, 1fr); }
+    .py-push { margin-left: 0; }
+    .py-pkgrid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; max-height: 50vh; }
+    .py-pk { padding: 12px 8px; }
+    .py-wrapt { border: 0; background: none; overflow: visible; }
+    .py-table { min-width: 0; display: block; }
+    .py-table thead { display: none; }
+    .py-table tbody { display: grid; gap: 10px; }
+    .py-table tr { display: block; background: var(--py-paper); border: 1px solid var(--py-line); border-radius: 12px; padding: 8px 12px; }
+    .py-table td { display: flex; justify-content: space-between; align-items: center; gap: 14px; border: 0; padding: 6px 0; text-align: right; }
+    .py-table td::before { content: attr(data-label); flex: none; color: var(--py-ink2); font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; text-align: left; }
+    .py-table td.py-first { display: block; text-align: left; padding-bottom: 8px; }
+    .py-table td.py-first::before { display: none; }
+    .py-num { text-align: right; }
+}
+
+
+.py-mg { display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--py-ink2); padding: 14px 12px 4px; }
+
+.py-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--py-line); margin-bottom: 16px; overflow-x: auto; }
+.py-tab { border: 0; background: none; padding: 10px 14px; font-weight: 700; color: var(--py-ink2); cursor: pointer; border-bottom: 3px solid transparent; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; }
+.py-tab:hover { color: var(--py-ink); }
+.py-tab.py-act { color: var(--py-ink); border-bottom-color: #E2622B; }
+.py-tab i { font-style: normal; min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--py-soft); font-size: 12px; line-height: 20px; text-align: center; }
+.py-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.py-tile { background: var(--py-paper); border: 1px solid var(--py-line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+a.py-tile:hover { border-color: var(--py-ink); }
+.py-tile b { font-family: var(--py-head); font-size: 30px; line-height: 1.1; }
+.py-tile span { color: var(--py-ink2); font-weight: 600; font-size: 13.5px; }
+.py-tile.py-warn { border-color: #F2B8A0; background: #FFF6F1; }
+.py-pill-dot { display: inline-block; width: 8px; height: 8px; border-radius: 999px; margin-right: 6px; vertical-align: middle; }
+.py-flags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
+.py-flag { font-size: 11.5px; font-weight: 800; padding: 1px 8px; border-radius: 999px; background: #FCE3D5; color: #8A3A14; white-space: nowrap; }
+.py-bar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; justify-content: space-between; padding: 12px 14px; border: 1px solid var(--py-line); border-radius: 12px; background: var(--py-paper); margin-bottom: 14px; }
+.py-bar b { font-family: var(--py-head); font-size: 20px; }
+.py-note { padding: 12px 14px; border-radius: 10px; background: #FDEADF; color: #6E2E10; font-weight: 600; font-size: 14px; }
+.py-note:empty { display: none; }
+.py-ok { padding: 12px 14px; border-radius: 10px; background: #E3EEDD; color: #2E5A2A; font-weight: 600; font-size: 14px; }
+.py-sum { display: grid; gap: 6px; padding: 14px; border: 1px solid var(--py-line); border-radius: 10px; background: var(--py-bg); }
+.py-sum div { display: flex; justify-content: space-between; gap: 12px; }
+.py-sum .py-tot { border-top: 1px solid var(--py-line); padding-top: 8px; font-weight: 800; }
+.py-mini { font-size: 13px; color: var(--py-ink2); }
+.py-acts-row { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.py-mbox.py-wide { width: min(1040px, 100%); }
+@media (max-width: 680px) {
+    .py-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .py-tile b { font-size: 24px; }
+    .py-acts-row { justify-content: flex-start; }
+}
+.py-field input[type="datetime-local"], .py-field input[type="tel"], .py-field input[type="month"] { width: 100%; min-height: 42px; border: 1px solid #C9D0D8; border-radius: 8px; padding: 9px 12px; background: #fff; outline: none; }
+.py-field input[type="datetime-local"]:focus, .py-field input[type="tel"]:focus { border-color: var(--py-ink); }
+
+.py-dlab { display: inline-flex; align-items: center; gap: 6px; font-size: 13.5px; font-weight: 600; color: var(--py-ink2); }
+.py-tools input[type="date"] { height: 42px; border: 1px solid #C9D0D8; border-radius: 8px; padding: 0 10px; background: #fff; }
+.py-neg { color: #8A2A22; font-weight: 700; }
+.py-lnk { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }

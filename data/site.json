@@ -1,0 +1,576 @@
+{
+  "brand": "Brightroad",
+  "legal": "Brightroad Car Rental",
+  "tagline": "Clean, well-kept rental cars at Harlow Falls Airport and Downtown. Book online, pay at pick-up.",
+  "phone": "(541) 555-0100",
+  "email": "hello@brightroad-rental.example",
+  "notifyEmail": "",
+  "cancelHours": 24,
+  "bufferHours": 2,
+  "minAge": 21,
+  "graceMinutes": 59,
+  "fuelPerEighth": 9.5,
+  "dailyMiles": 200,
+  "mileRate": 0.35,
+  "cleaningFee": 75,
+  "taxRate": 8,
+  "maxVideoMb": 30,
+  "serviceEvery": 10000,
+  "pages": {
+    "home": {
+      "blocks": [
+        {
+          "id": "b676nm8mg6",
+          "type": "hero",
+          "source": "",
+          "hidden": false,
+          "kicker": "Harlow Falls Airport and Downtown",
+          "title": "The right car, ready when you land.",
+          "text": "<p>Book in two minutes, pay at pick-up and drive off. Free cancellation until 24 hours before.</p>",
+          "media": "images/site/hero-open-road.webp",
+          "label": "See the fleet",
+          "link": "Fleet",
+          "label2": "Rental policies",
+          "link2": "Policies",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "images/site/hero-sunset.webp",
+              "title": "Sunset drive",
+              "text": "",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "images/site/hero-coast.webp",
+              "title": "Coast road",
+              "text": "",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "bvjfc36kae",
+          "type": "data",
+          "source": "search",
+          "hidden": false,
+          "kicker": "",
+          "title": "Find your car",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bdcnrb7w6n",
+          "type": "data",
+          "source": "classes",
+          "hidden": false,
+          "kicker": "The fleet",
+          "title": "A car for every trip",
+          "text": "<p>From a city hatchback to a seven-seat minivan. You book a class, and we hand you a clean car from it.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bqu9af7t4f",
+          "type": "steps",
+          "source": "",
+          "hidden": false,
+          "kicker": "How it works",
+          "title": "Four steps, no surprises",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Search",
+              "text": "Choose the branch, pick-up and return time. You see every free class with the full price.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Book",
+              "text": "Add a child seat or full coverage, enter the driver and get your booking code at once.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Pick up",
+              "text": "Show your licence and card at the counter. We walk round the car with you and note its condition.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Return",
+              "text": "Bring it back to the same branch with the same fuel. We check it in and you are on your way.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "bswqubeg3g",
+          "type": "cards",
+          "source": "",
+          "hidden": false,
+          "kicker": "Why {name}",
+          "title": "Renting made simple",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "card",
+              "media": "",
+              "title": "Pay at pick-up",
+              "text": "Nothing is charged when you book. The price you see includes the rental and your extras; tax is added.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "calendar",
+              "media": "",
+              "title": "Free cancellation",
+              "text": "Cancel online until 24 hours before pick-up at no cost.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "shield",
+              "media": "",
+              "title": "Clear coverage",
+              "text": "Basic coverage is included. Add full coverage with no excess for peace of mind.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "seat",
+              "media": "",
+              "title": "Family ready",
+              "text": "Child and booster seats fitted for you, and minivans with seven seats.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "bu2ebappd8",
+          "type": "data",
+          "source": "branches",
+          "hidden": false,
+          "kicker": "Where to find us",
+          "title": "Two branches in Harlow Falls",
+          "text": "<p>Pick up and return at the same branch.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "b234entxfv",
+          "type": "faq",
+          "source": "",
+          "hidden": false,
+          "kicker": "Questions",
+          "title": "Before you book",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "How old do I need to be?",
+              "text": "The main driver must be at least 21 at pick-up and have held a full licence for one year.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "What do I bring?",
+              "text": "Your driver's licence and a payment card in the driver's name. We hold a refundable deposit on the card.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Can I return the car late?",
+              "text": "There is a 59-minute grace time. After that, each started 24 hours is charged as an extra day at the daily rate. Ask us to extend if your plans change.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Can someone else drive?",
+              "text": "Yes. Add an additional driver when you book or at the counter. They show their licence at pick-up.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "bxa4hirgad",
+          "type": "cta",
+          "source": "",
+          "hidden": false,
+          "kicker": "Ready to go?",
+          "title": "Book now, pay when you pick up",
+          "text": "<p>Free cancellation until 24 hours before pick-up.</p>",
+          "media": "",
+          "label": "Find a car",
+          "link": "Home#find",
+          "label2": "Contact us",
+          "link2": "Contact",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "2026-10-21T13:20:00Z",
+      "by": "u-editor"
+    },
+    "fleet": {
+      "blocks": [
+        {
+          "id": "b79mn6ni42",
+          "type": "text",
+          "source": "",
+          "hidden": false,
+          "kicker": "Our fleet",
+          "title": "Choose a class",
+          "text": "<p>Every class shows seats, bags and transmission. Prices are from the daily rate; Friday to Sunday days use the weekend rate, and every full seven days the weekly rate.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bh34patvbp",
+          "type": "data",
+          "source": "fleetlist",
+          "hidden": false,
+          "kicker": "",
+          "title": "All classes",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bm3gcjp6sa",
+          "type": "cta",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "Not sure which class fits?",
+          "text": "<p>Call either branch and we will help you choose.</p>",
+          "media": "",
+          "label": "Contact us",
+          "link": "Contact",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "2026-10-21T13:20:00Z",
+      "by": "u-editor"
+    },
+    "branches": {
+      "blocks": [
+        {
+          "id": "bxu2eefpra",
+          "type": "text",
+          "source": "",
+          "hidden": false,
+          "kicker": "Branches",
+          "title": "Pick up and return here",
+          "text": "<p>Both branches have the full fleet. Return the car to the branch where you picked it up.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bzz7i8i2mj",
+          "type": "data",
+          "source": "branchlist",
+          "hidden": false,
+          "kicker": "",
+          "title": "Our branches",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "bvqrnkn28f",
+          "type": "faq",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "Good to know",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Can I return outside opening hours?",
+              "text": "At the airport, yes: use the key drop at the counter. The car is checked in the next morning. Downtown, please return during opening hours.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Can I return to the other branch?",
+              "text": "Not at the moment. Every rental starts and ends at the same branch.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        }
+      ],
+      "versions": [],
+      "saved": "2026-10-21T13:20:00Z",
+      "by": "u-editor"
+    },
+    "policies": {
+      "blocks": [
+        {
+          "id": "b4dggcsr3s",
+          "type": "text",
+          "source": "",
+          "hidden": false,
+          "kicker": "Rental policies",
+          "title": "The rules, in plain words",
+          "text": "<p>These are the terms every rental follows. If something is unclear, ask us before you book.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        },
+        {
+          "id": "b49umeiq8e",
+          "type": "faq",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "Drivers and payment",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Driver age and licence",
+              "text": "The main driver and every additional driver must be at least 21 at pick-up and show a full, valid licence held for at least one year.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Payment and deposit",
+              "text": "You pay the rental total at pick-up with a card in the driver's name. A refundable deposit, shown on each class, is held on the card and released when the car comes back in good order.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Coverage",
+              "text": "Basic coverage is included and meets the legal minimum, with the deposit as your excess for damage to the car. Full coverage removes the excess, tires and windscreen included.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "btppbet46r",
+          "type": "faq",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "On the road",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Fuel",
+              "text": "Cars leave with a full tank and should come back full. Missing fuel is charged at $9.50 for each eighth of a tank.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Mileage",
+              "text": "200 miles a day are included. Each extra mile costs $0.35.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Smoking and pets",
+              "text": "No smoking in any car. Pets are welcome in a travel crate. A car that needs extra cleaning is charged $75.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "id": "bdcmuzifzi",
+          "type": "faq",
+          "source": "",
+          "hidden": false,
+          "kicker": "",
+          "title": "Returns and changes",
+          "text": "",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": [
+            {
+              "icon": "",
+              "media": "",
+              "title": "Rental days",
+              "text": "A rental day is 24 hours from the pick-up time. There is a 59-minute grace time on return; after that a new day starts.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Late returns",
+              "text": "Each started day after the booked return is charged at the daily rate. If you need the car longer, ask on Manage booking and we confirm if the car is free.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Damage",
+              "text": "We inspect the car with you at pick-up and again at return, with photos. New damage is charged up to the deposit, or nothing with full coverage.",
+              "link": "",
+              "label": ""
+            },
+            {
+              "icon": "",
+              "media": "",
+              "title": "Cancellation",
+              "text": "Cancel free of charge on Manage booking until 24 hours before pick-up. After that, please call the branch.",
+              "link": "",
+              "label": ""
+            }
+          ]
+        }
+      ],
+      "versions": [],
+      "saved": "2026-10-21T13:20:00Z",
+      "by": "u-editor"
+    },
+    "contact": {
+      "blocks": [
+        {
+          "id": "b6xicb8yvc",
+          "type": "data",
+          "source": "contactform",
+          "hidden": false,
+          "kicker": "Contact",
+          "title": "We are here to help",
+          "text": "<p>Call the branch for anything urgent. For everything else, send us a message and we answer within one working day.</p>",
+          "media": "",
+          "label": "",
+          "link": "",
+          "label2": "",
+          "link2": "",
+          "flip": false,
+          "items": []
+        }
+      ],
+      "versions": [],
+      "saved": "2026-10-21T13:20:00Z",
+      "by": "u-editor"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "br-airport",
+    "name": "Harlow Falls Airport",
+    "street": "4100 Terminal Drive",
+    "city": "Harlow Falls",
+    "region": "OR",
+    "zip": "97455",
+    "phone": "(541) 555-0142",
+    "email": "airport@brightroad-rental.example",
+    "hours": "Every day: 5 am to midnight\nKey drop for late returns at the counter",
+    "media": "images/site/branch-airport.webp",
+    "note": "Our counter is in the rental car center, level 1. Follow the Rental Cars signs from baggage claim. The cars are parked right outside.",
+    "open": true
+  },
+  {
+    "id": "br-downtown",
+    "name": "Downtown Harlow Falls",
+    "street": "218 Main Street",
+    "city": "Harlow Falls",
+    "region": "OR",
+    "zip": "97451",
+    "phone": "(541) 555-0187",
+    "email": "downtown@brightroad-rental.example",
+    "hours": "Mon to Fri: 7 am to 7 pm\nSat: 8 am to 5 pm\nSun: 9 am to 3 pm",
+    "media": "images/site/branch-downtown.webp",
+    "note": "Enter the parking garage from 3rd Avenue and return the car to level P1. Two blocks from the Main Street bus station.",
+    "open": true
+  }
+]

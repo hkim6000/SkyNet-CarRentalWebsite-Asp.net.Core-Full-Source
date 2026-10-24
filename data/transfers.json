@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t-z8ivxbnq",
+    "carId": "c-rrb4vdbn",
+    "from": "br-downtown",
+    "to": "br-airport",
+    "depart": "2026-10-23T09:00:00",
+    "arrive": "2026-10-23T10:00:00",
+    "status": "Planned",
+    "note": "More midsize bookings at the airport this week",
+    "created": "2026-10-21T16:00:00",
+    "by": "u-tech"
+  },
+  {
+    "id": "t-6fjz4zr6",
+    "carId": "c-792e8ucn",
+    "from": "br-downtown",
+    "to": "br-airport",
+    "depart": "2026-10-14T09:00:00",
+    "arrive": "2026-10-14T10:00:00",
+    "status": "Arrived",
+    "note": "Weekend demand at the airport",
+    "created": "2026-10-13T15:00:00",
+    "by": "u-tech"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "u-owner",
+    "login": "owner",
+    "name": "Dana Whitfield",
+    "title": "Owner and manager",
+    "hash": "pbkdf2$100000$1789CC700407CBF05A27ADF5D0381EAA$55672F3368AFBF2524E6B1DA6E1792714488A285E4FB85243AE5CB2C33E52242",
+    "mustChange": false,
+    "active": true,
+    "manager": true,
+    "setId": "",
+    "perms": {},
+    "allBranches": true,
+    "branches": []
+  },
+  {
+    "id": "u-airport",
+    "login": "airport",
+    "name": "Marcus Bell",
+    "title": "Airport rental agent",
+    "hash": "pbkdf2$100000$1789CC700407CBF05A27ADF5D0381EAA$55672F3368AFBF2524E6B1DA6E1792714488A285E4FB85243AE5CB2C33E52242",
+    "mustChange": false,
+    "active": true,
+    "manager": false,
+    "setId": "ps-agent",
+    "perms": {
+      "desk": "VE",
+      "bookings": "VAE",
+      "calendar": "V",
+      "fleet": "V",
+      "incidents": "VA",
+      "transfers": "V",
+      "payments": "VA",
+      "messages": "VE"
+    },
+    "allBranches": false,
+    "branches": [
+      "br-airport"
+    ]
+  },
+  {
+    "id": "u-downtown",
+    "login": "downtown",
+    "name": "Priya Raman",
+    "title": "Downtown rental agent",
+    "hash": "pbkdf2$100000$1789CC700407CBF05A27ADF5D0381EAA$55672F3368AFBF2524E6B1DA6E1792714488A285E4FB85243AE5CB2C33E52242",
+    "mustChange": false,
+    "active": true,
+    "manager": false,
+    "setId": "ps-agent",
+    "perms": {
+      "desk": "VE",
+      "bookings": "VAE",
+      "calendar": "V",
+      "fleet": "V",
+      "incidents": "VA",
+      "transfers": "V",
+      "payments": "VA",
+      "messages": "VE"
+    },
+    "allBranches": false,
+    "branches": [
+      "br-downtown"
+    ]
+  },
+  {
+    "id": "u-tech",
+    "login": "tech",
+    "name": "Luis Ortega",
+    "title": "Fleet technician",
+    "hash": "pbkdf2$100000$1789CC700407CBF05A27ADF5D0381EAA$55672F3368AFBF2524E6B1DA6E1792714488A285E4FB85243AE5CB2C33E52242",
+    "mustChange": false,
+    "active": true,
+    "manager": false,
+    "setId": "ps-tech",
+    "perms": {
+      "desk": "V",
+      "calendar": "V",
+      "fleet": "VAE",
+      "service": "VAED",
+      "repairs": "VAE",
+      "incidents": "VAE",
+      "transfers": "VAE",
+      "extras": "VE"
+    },
+    "allBranches": true,
+    "branches": []
+  },
+  {
+    "id": "u-accounts",
+    "login": "accounts",
+    "name": "Grace Liu",
+    "title": "Accountant",
+    "hash": "pbkdf2$100000$1789CC700407CBF05A27ADF5D0381EAA$55672F3368AFBF2524E6B1DA6E1792714488A285E4FB85243AE5CB2C33E52242",
+    "mustChange": false,
+    "active": true,
+    "manager": true,
+    "setId": "",
+    "perms": {},
+    "allBranches": true,
+    "branches": []
+  },
+  {
+    "id": "u-editor",
+    "login": "editor",
+    "name": "Sam Porter",
+    "title": "Content editor",
+    "hash": "pbkdf2$100000$1789CC700407CBF05A27ADF5D0381EAA$55672F3368AFBF2524E6B1DA6E1792714488A285E4FB85243AE5CB2C33E52242",
+    "mustChange": false,
+    "active": true,
+    "manager": false,
+    "setId": "ps-web",
+    "perms": {
+      "pages": "VE",
+      "media": "VAED",
+      "messages": "VE"
+    },
+    "allBranches": false,
+    "branches": []
+  }
+]

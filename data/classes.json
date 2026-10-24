@@ -1,0 +1,163 @@
+[
+  {
+    "id": "cl-economy",
+    "name": "Economy",
+    "summary": "Small, light and easy to park. Ideal for one or two people getting around town.",
+    "example": "Kestrel Pip",
+    "seats": 4,
+    "doors": 4,
+    "bags": 1,
+    "transmission": "Manual",
+    "fuel": "Gas",
+    "daily": 39,
+    "weekend": 45,
+    "weekly": 229,
+    "deposit": 200,
+    "features": [
+      "Up to 42 miles per gallon",
+      "Bluetooth audio",
+      "Rear camera",
+      "Air conditioning"
+    ],
+    "media": "images/classes/economy.webp",
+    "show": true
+  },
+  {
+    "id": "cl-compact",
+    "name": "Compact",
+    "summary": "A little more room and an automatic gearbox. A good all-round choice for city and highway.",
+    "example": "Norvane Lark",
+    "seats": 5,
+    "doors": 4,
+    "bags": 2,
+    "transmission": "Automatic",
+    "fuel": "Gas",
+    "daily": 45,
+    "weekend": 52,
+    "weekly": 269,
+    "deposit": 250,
+    "features": [
+      "Automatic",
+      "Apple CarPlay and Android Auto",
+      "Cruise control",
+      "Rear camera"
+    ],
+    "media": "images/classes/compact.webp",
+    "show": true
+  },
+  {
+    "id": "cl-midsize",
+    "name": "Midsize",
+    "summary": "A comfortable sedan with a big trunk, made for longer drives and business trips.",
+    "example": "Aldent Meridian",
+    "seats": 5,
+    "doors": 4,
+    "bags": 3,
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "daily": 55,
+    "weekend": 62,
+    "weekly": 329,
+    "deposit": 300,
+    "features": [
+      "Hybrid, around 50 miles per gallon",
+      "Adaptive cruise control",
+      "Lane keeping help",
+      "Heated front seats"
+    ],
+    "media": "images/classes/midsize.webp",
+    "show": true
+  },
+  {
+    "id": "cl-suv",
+    "name": "SUV",
+    "summary": "All-wheel drive, high seats and room for the whole family and their gear.",
+    "example": "Sorrel Ridgeback",
+    "seats": 5,
+    "doors": 4,
+    "bags": 4,
+    "transmission": "Automatic",
+    "fuel": "Gas",
+    "daily": 72,
+    "weekend": 82,
+    "weekly": 439,
+    "deposit": 400,
+    "features": [
+      "All-wheel drive",
+      "Roof rails",
+      "Large cargo space",
+      "Blind spot warning"
+    ],
+    "media": "images/classes/suv.webp",
+    "show": true
+  },
+  {
+    "id": "cl-minivan",
+    "name": "Minivan",
+    "summary": "Seven seats and sliding doors. The easy way to move a group or a team.",
+    "example": "Halden Harbor",
+    "seats": 7,
+    "doors": 5,
+    "bags": 4,
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "daily": 85,
+    "weekend": 95,
+    "weekly": 519,
+    "deposit": 400,
+    "features": [
+      "Seven seats",
+      "Sliding side doors",
+      "Three-zone climate control",
+      "Rear seat screens"
+    ],
+    "media": "images/classes/minivan.webp",
+    "show": true
+  },
+  {
+    "id": "cl-pickup",
+    "name": "Pickup",
+    "summary": "A crew-cab truck with an open bed for furniture, bikes and weekend projects.",
+    "example": "Torvik Hauler",
+    "seats": 5,
+    "doors": 4,
+    "bags": 4,
+    "transmission": "Automatic",
+    "fuel": "Gas",
+    "daily": 79,
+    "weekend": 89,
+    "weekly": 479,
+    "deposit": 400,
+    "features": [
+      "Four-wheel drive",
+      "Bed liner and tie-downs",
+      "Tow hitch",
+      "Crew cab for five"
+    ],
+    "media": "images/classes/pickup.webp",
+    "show": true
+  },
+  {
+    "id": "cl-luxury",
+    "name": "Luxury",
+    "summary": "A quiet, long-wheelbase sedan with leather seats for special days and important guests.",
+    "example": "Veyra Grand",
+    "seats": 5,
+    "doors": 4,
+    "bags": 3,
+    "transmission": "Automatic",
+    "fuel": "Gas",
+    "daily": 129,
+    "weekend": 149,
+    "weekly": 799,
+    "deposit": 750,
+    "features": [
+      "Leather seats with massage",
+      "Premium sound",
+      "Panoramic roof",
+      "Head-up display"
+    ],
+    "media": "images/classes/luxury.webp",
+    "show": true
+  }
+]

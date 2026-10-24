@@ -1,0 +1,34 @@
+<div class="cs-site" data-page="AdminClasses" id="cs-site-root">
+<header class="cs-top">
+    <button type="button" class="cs-burger" aria-label="Menu" onclick="AdminClassesJs.openMenu()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="cs-logo" href="Admin"><svg viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#13202B"/><path d="M12 30L18 10M28 30L22 10" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/><path d="M20 13v3M20 20v3M20 27v2" fill="none" stroke="#E2622B" stroke-width="2.6" stroke-linecap="round"/></svg><span id="cs-brand">Staff</span><small>Staff</small></a>
+    <div class="cs-who" id="cs-who"></div>
+    <a class="cs-tl cs-tlv" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="cs-tl" onclick="AdminClassesJs.signout()">Sign out</button>
+</header>
+<div class="cs-body">
+    <nav class="cs-rail" id="cs-rail" aria-label="Staff menu">
+        <div class="cs-rail-top"><b>Menu</b><button type="button" class="cs-ibtn" aria-label="Close menu" onclick="AdminClassesJs.closeMenu()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="cs-menu" id="cs-menu"></div>
+    </nav>
+    <div class="cs-scrim" id="cs-scrim" onclick="AdminClassesJs.closeMenu()"></div>
+    <main class="cs-main" id="cs-main"><div class="cs-loading">Loading</div></main>
+</div>
+<div class="cs-modal" id="cs-modal" aria-hidden="true">
+    <div class="cs-mbox" role="dialog" aria-modal="true" aria-labelledby="cs-mtitle">
+        <div class="cs-mhead"><h2 id="cs-mtitle"></h2><button type="button" class="cs-ibtn" aria-label="Close" onclick="AdminClassesJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="cs-mbody" id="cs-mbody"></div>
+    </div>
+</div>
+<div class="cs-pk" id="cs-pk" aria-hidden="true">
+    <div class="cs-mbox cs-pkbox" role="dialog" aria-modal="true" aria-labelledby="cs-pkt">
+        <div class="cs-mhead"><h2 id="cs-pkt">Choose from the media library</h2><button type="button" class="cs-ibtn" aria-label="Close" onclick="AdminClassesJs.pkClose()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="cs-mbody">
+            <div class="cs-pkbar"><input type="search" id="cs-pkq" placeholder="Search by name or description" maxlength="40" oninput="AdminClassesJs.pkSearch()" aria-label="Search media"><label class="cs-btn cs-btn-ghost cs-btn-sm cs-upbtn"><input type="file" id="cs-pkfile" accept="image/jpeg,image/png,image/webp,image/gif" onchange="AdminClassesJs.pkUpload()">Upload new</label></div>
+            <p class="cs-upmsg" id="cs-pkmsg" role="status"></p>
+            <div class="cs-pkgrid" id="cs-pkgrid"></div>
+        </div>
+    </div>
+</div>
+<div class="cs-toast" id="cs-toast" role="status" aria-live="polite"></div>
+</div>

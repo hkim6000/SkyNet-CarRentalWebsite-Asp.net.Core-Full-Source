@@ -1,0 +1,14 @@
+[
+  {
+    "id": "x-er2q4v39",
+    "bookingId": "b-d2jfpc7mgm",
+    "when": "2026-10-21T15:00:00",
+    "by": "u-airport",
+    "oldEnd": "2026-10-24T10:00:00",
+    "newEnd": "2026-10-27T10:00:00",
+    "oldCarId": "c-q4vipz8k",
+    "newCarId": "c-q4vipz8k",
+    "amount": 538,
+    "note": "Customer called, staying for the conference"
+  }
+]

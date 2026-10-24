@@ -1,0 +1,53 @@
+[
+  {
+    "id": "r-3shqmnhq",
+    "carId": "c-huuttzss",
+    "bookingId": "b-gkgn2jjvv5",
+    "incidentId": "",
+    "opened": "2026-10-19T09:30:00",
+    "problem": "Dent in the left rear door",
+    "shop": "Harlow Falls Body Works",
+    "estimate": 380,
+    "cost": 0,
+    "charged": 420,
+    "readyBy": "2026-10-24T17:00:00",
+    "status": "In shop",
+    "notes": "Panel ordered, paint match booked.",
+    "closedAt": null,
+    "by": "u-tech"
+  },
+  {
+    "id": "r-ju2jst6a",
+    "carId": "c-pftr2365",
+    "bookingId": "b-d8a257f6mq",
+    "incidentId": "n-6hb9hesm",
+    "opened": "2026-09-26T09:10:00",
+    "problem": "Accident: rear bumper and tail light",
+    "shop": "Harlow Falls Body Works",
+    "estimate": 650,
+    "cost": 612,
+    "charged": 0,
+    "readyBy": null,
+    "status": "Done",
+    "notes": "",
+    "closedAt": "2026-09-30T09:00:00",
+    "by": "u-tech"
+  },
+  {
+    "id": "r-m38k63qe",
+    "carId": "c-g39kqk53",
+    "bookingId": "",
+    "incidentId": "",
+    "opened": "2026-10-02T09:00:00",
+    "problem": "Windscreen chip",
+    "shop": "Clearview Glass",
+    "estimate": 120,
+    "cost": 95,
+    "charged": 0,
+    "readyBy": "2026-10-02T15:00:00",
+    "status": "Done",
+    "notes": "",
+    "closedAt": "2026-10-02T14:00:00",
+    "by": "u-tech"
+  }
+]

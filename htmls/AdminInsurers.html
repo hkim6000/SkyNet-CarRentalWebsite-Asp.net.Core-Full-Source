@@ -1,0 +1,24 @@
+<div class="is-site" data-page="AdminInsurers" id="is-site-root">
+<header class="is-top">
+    <button type="button" class="is-burger" aria-label="Menu" onclick="AdminInsurersJs.openMenu()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a class="is-logo" href="Admin"><svg viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#13202B"/><path d="M12 30L18 10M28 30L22 10" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/><path d="M20 13v3M20 20v3M20 27v2" fill="none" stroke="#E2622B" stroke-width="2.6" stroke-linecap="round"/></svg><span id="is-brand">Staff</span><small>Staff</small></a>
+    <div class="is-who" id="is-who"></div>
+    <a class="is-tl is-tlv" href="Home" target="_blank" rel="noopener">View site</a>
+    <button type="button" class="is-tl" onclick="AdminInsurersJs.signout()">Sign out</button>
+</header>
+<div class="is-body">
+    <nav class="is-rail" id="is-rail" aria-label="Staff menu">
+        <div class="is-rail-top"><b>Menu</b><button type="button" class="is-ibtn" aria-label="Close menu" onclick="AdminInsurersJs.closeMenu()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="is-menu" id="is-menu"></div>
+    </nav>
+    <div class="is-scrim" id="is-scrim" onclick="AdminInsurersJs.closeMenu()"></div>
+    <main class="is-main" id="is-main"><div class="is-loading">Loading</div></main>
+</div>
+<div class="is-modal" id="is-modal" aria-hidden="true">
+    <div class="is-mbox is-wide" role="dialog" aria-modal="true" aria-labelledby="is-mtitle">
+        <div class="is-mhead"><h2 id="is-mtitle"></h2><button type="button" class="is-ibtn" aria-label="Close" onclick="AdminInsurersJs.closeModal()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+        <div class="is-mbody" id="is-mbody"></div>
+    </div>
+</div>
+<div class="is-toast" id="is-toast" role="status" aria-live="polite"></div>
+</div>

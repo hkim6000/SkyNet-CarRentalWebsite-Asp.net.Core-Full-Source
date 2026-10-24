@@ -1,0 +1,46 @@
+[
+  {
+    "id": "z7x72ywax8xq",
+    "name": "Harriet Gale",
+    "email": "harriet.gale@example.com",
+    "phone": "(541) 555-0311",
+    "area": "br-airport",
+    "code": "",
+    "text": "Hello, do you allow dogs in the SUVs? We have a medium-sized dog in a travel crate.",
+    "when": "2026-10-21T15:12:00Z",
+    "status": "New"
+  },
+  {
+    "id": "br7cjjt2tesy",
+    "name": "Tomas Reyes",
+    "email": "tomas.reyes@example.com",
+    "phone": "",
+    "area": "br-downtown",
+    "code": "BR-GCP9PS",
+    "text": "I booked a car for next week. Can I pick it up at 6:30 pm instead of 8 am the next morning?",
+    "when": "2026-10-21T19:40:00Z",
+    "status": "New"
+  },
+  {
+    "id": "icgn5gzurjev",
+    "name": "Judith Vance",
+    "email": "judith.vance@example.com",
+    "phone": "(541) 555-0442",
+    "area": "",
+    "code": "",
+    "text": "Do you offer monthly rates for a company car? We need two midsize cars from December to March.",
+    "when": "2026-10-19T10:05:00Z",
+    "status": "Read"
+  },
+  {
+    "id": "xzry3xdxw8zr",
+    "name": "Kofi Mensah",
+    "email": "kofi.mensah@example.com",
+    "phone": "(541) 555-0518",
+    "area": "br-airport",
+    "code": "BR-ZNE2GR",
+    "text": "I think I left my sunglasses in the compact I returned last month. Grey case. Thank you!",
+    "when": "2026-10-12T08:30:00Z",
+    "status": "Replied"
+  }
+]
